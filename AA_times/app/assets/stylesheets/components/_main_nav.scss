@@ -1,27 +1,39 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 8px;
+  text-transform: uppercase;
+  margin: 10px;
 }
 
 .right-nav > ul > li {
-
+  font-family: inherit;
+  font-size: inherit;
+  text-transform: inherit;
+  margin: 1px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  margin: 10px;
+  font-size: 14px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
 
+  background-color: $lightest-gray;
 }
 
 .left-nav span {
