@@ -16,7 +16,11 @@
     <ul>
       <li><button type="button">subscribe now</button></li>
       <li><button type="button">log in</button></li>
-      <li><i class="fas fa-cog"></i></li>
+      <li id="gear-dropdown-btn"><i class="fas fa-cog"></i>
+        <%= render partial: 'shared/gear_dropdown' %>
+      </li>
+      <!-- <li id="gear-dropdown"><%= render partial: 'shared/gear_dropdown' %></li> -->
+      <!-- How are we supposed to know that commented out wont work?? -->
     </ul>
   </nav>
   
